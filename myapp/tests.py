@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import MagicMock
-from .management.commands.run_telegram_bot import start, games, handle_help, handle_add_game, echo_all
+from .management.commands.run_telegram_bot import start, games, handle_help, handle_add_game
 
 
 class TestBot(unittest.TestCase):
