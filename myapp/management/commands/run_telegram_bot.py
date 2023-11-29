@@ -1,7 +1,7 @@
 from django.core.management.base import BaseCommand
 import telebot
 from telebot import types
-from myapp.models import Game
+from myapp. import Game
 
 
 bot = telebot.TeleBot("6767763518:AAHpwumvSlKIP3rLIDbs5zlMISem0vqby_g")  # Вставьте сюда свой токен
